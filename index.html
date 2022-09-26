@@ -3,53 +3,83 @@
 <html lang="en">
 <head>
 <!-- Link your CSS stylesheet -->
-<link rel = "stylesheet" href = "index.css">
 <style>
-@import url('https://fonts.googleapis.com/css?family=Chelsea+Market&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
-</style>
+  @import url('https://fonts.googleapis.com/css?family=Chelsea+Market&display=swap');
+  @import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+  </style>
+  
+<link rel = "stylesheet" href = "index.css">
+
 
     
 </head>
 <body>
         
   <header>
-    <div class = "visit">Plan your Visit</div>
-    <div class = "park">Learn About the Park </div>
-    <div class = "involved">Get Involved </div>
+    <nav>
+      <a href="#visit" class="visit">Plan your <br> Visit</a>
+      <a href="#park" class="park">Learn About <br> the Park</a>
+      <a href="#involved" class="involved">Get <br> Involved </a>
+    </nav>
+    
+
+    <!-- <nav>
+      <a href = "#visit">Plan your Visit</a>
+      <a href = "#park">Learn About the Park</a>
+      <a href = "#involved">Get Involved </a>
+
+    </nav> -->
+ 
   </header>
    
-      <div class = "top">
-        <img src = "/assets/header_img.jpg">
-        <h1>Yosemite Park Guide </h1>
-      Come explore California’s beautiful wilderness.
-      Always open. Reservations are not available or required to enter the park.
-      </div>
+      <section class = "top">
+        <div class = "image">
+          <img src = "/assets/header_img.jpg" class="round">
+        </div>
+        <div class = "title">
+          <h1>Yosemite Park Guide </h1>
+      <h2> Come explore California’s beautiful wilderness.</h2>
+      <p> Always open. Reservations are not available or required to enter the park.
+</p>
+     
+        </div>
+      </section>
       
 
-      <div class = "middle">
+      <section class = "middle">
+      
         Not just a great valley, but a shrine to human foresight, the strength of granite, the power of glaciers, the persistence of life, and the tranquility of the High Sierra.
       
       First protected in 1864, Yosemite National Park is best known for its waterfalls, but within its nearly 1,200 square miles, you can find deep valleys, grand meadows, ancient giant sequoias, a vast wilderness area, and much more.
 
-      </div>
+      </section>
       
       
-      <div class = "bottom">
-        <img src = "/assets/campfire.png">
-      Fire is a natural and essential part of Yosemite. We manage fire carefully and study how it interacts with the park’s ecosystems. This blog provides updates about fires in Yosemite. <span> Check for current fire restrictions. </span>
-      
-      <img src = "/assets/camper.png">
+      <section class = "bottom">
+        <div class="campfire">
+          <img src = "/assets/campfire.png">
+          Fire is a natural and essential part of Yosemite. We manage fire carefully and study how it interacts with the park’s ecosystems. This blog provides updates about fires in Yosemite. <span> Check for current fire restrictions. </span>
+        </div>
+       
+      <div class="camper">
+        <img src = "/assets/camper.png">
       We strongly recommend that you make reservations for lodging, camping, and backpacking. You can pay the <span> park entrance fee </span> upon arrival (there's no need to pay it in advance).
       </div>
       
+      </section>
+
+      <section class="bottom_image">
+      <img src = "/assets/footer_img.jpg">
+      </section>
+      
+      
       <footer>
-        <img src = "/assets/footer_img.jpg">
       
-      
-        <div class = "button visit">Plan your visit</div>
-    <div class = "button park">Learn about the Park </div>
-    <div class = "button involved">Get Involved </div>
+        <nav>
+          <a href="#visit" class="visit">Plan your <br> Visit</a>
+          <a href="#park" class="park">Learn About <br> the Park</a>
+          <a href="#involved" class="involved">Get <br> Involved </a>
+        </nav>
       
       </footer>
       
