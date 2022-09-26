@@ -47,3 +47,34 @@ table {
 	border-spacing: 0;
 }
 
+
+
+
+
+.visit {
+    background: #FF764E;
+    color: white;
+}
+
+.park {
+    background: #5ED3EB;
+    color: white;
+}
+
+.involved {
+    background: #FFCD69;
+    color: white;
+}
+
+h1 {
+    font-family: 'Chelsea Market'; 
+}
+
+* {
+    font-family: 'Roboto Mono';
+}
+
+.middle {
+    background: #DDB9A3;
+    color: white; 
+}
